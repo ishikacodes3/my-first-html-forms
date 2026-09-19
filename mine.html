@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <h3>Please fill in the details below to register.</h3>
+    <form action="post">
+        <fieldset>
+        <div>
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" name="username" placeholder="Enter your Name">
+            <br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            <br><br>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            <br><br>
+        </div>
+        <div>
+            <label for="phone">Phone number:</label>
+            <br>
+            <input type="text" id="phone" name="phone" placeholder="Enter phone number">
+            <br><br>
+        </div>
+        <div>
+            <label for="">Date of Birth:</label>
+            <br>
+            <input type="date">
+            <!-- <label for="date">Date of Birth:</label>
+            <br> -->
+            <!-- <input type="date" id="date" name="date"> -->
+            <br><br>
+        </div>
+        <div>
+            <label for="female">Gender:</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <br><br>
+        </div>
+        <!-- <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label> -->
+        <div>
+            <label for="hobbies">Hobbies:</label>
+            <br>
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading" name="hobbies">
+            <label for="music">Music</label>
+            <input type="checkbox" id="music" name="hobbies">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="sports" name="hobbies">
+            <br><br>
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <br>
+            <select id="city" name="city">
+            <option value="raipur">Raipur</option>
+            <option value="bhilal">Bhilal</option>
+            <option value="bilaspur">Bilaspur</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" name="address" placeholder="Enter your address" rows="5" cols="30"></textarea>
+            <br><br>
+        </div>
+        <div>
+            <label for="file">Upload Photo:</label>
+            <input type="file" id="file">
+            <br><br>
+        </div>
+        <div>
+            <input type="submit" value="Register" style="background-color: rgb(126, 126, 239);">
+            <input type="reset" value="Reset">
+        </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
